@@ -4,7 +4,7 @@
 // @version      1.0
 // @description  Redirects URLs with modified domain name (including certain domains)
 // @match        https://*/*
-// @grant        ChatGPT
+// @grant        none
 // ==/UserScript==
 
 (function() {
@@ -23,11 +23,8 @@
         "www.wolterskluwer.com",
         "www.whitingbirch.net",
         "taylorandfrancis.com",
-        "www.springernature.com",
-        "uk.sagepub.com",
         "royalsociety.org",
         "portlandpress.com",
-        "global.oup.com",
         "microbiologysociety.org",
         "ioppublishing.org",
         "www.emerald.com",
@@ -36,10 +33,25 @@
         "www.dovepress.com",
         "sciendo.com",
         "www.cambridge.org",
-        "www.bmj.com",
         "www.asco.org",
         "www.alpsp.org",
-        "www.sciencedirect.com"
+        "www.sciencedirect.com",
+        "www.bmj.com",
+        "journals.bmj.com",
+        "uk.sagepub.com",
+        "journals.sagepub.com",
+        "dataplanet.sagepub.com",
+        "global.oup.com",
+        "academic.oup.com",
+        "www.scopus.com",
+        "www.tandfonline.com",
+        "www.taylorfrancis.com",
+        "www.chemistryworld.com",
+        "ovidsp.dc2.ovid.com",
+        "ascopubs.org",
+        "link.springer.com",
+        "www.springernature.com",
+        "experiments.springernature.com"
     ];
 
     var currentDomain = window.location.hostname;
