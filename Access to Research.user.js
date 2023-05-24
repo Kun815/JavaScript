@@ -4,7 +4,7 @@
 // @version      1.0
 // @description  Redirects URLs with modified domain name (including certain domains)
 // @match        https://*/*
-// @grant        none
+// @grant        ChatGPT
 // ==/UserScript==
 
 (function() {
